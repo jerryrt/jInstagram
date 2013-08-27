@@ -22,6 +22,18 @@ public class UserFeedData {
 	
 	@SerializedName("full_name")
 	private String fullName;
+	
+
+	@SerializedName("website")
+	private String website;
+
+	public String getWebsite() {
+		return website;
+	}
+
+	public void setWebsite(String website) {
+		this.website = website;
+	}
 
 	public String getFullName() {
 		return fullName;
